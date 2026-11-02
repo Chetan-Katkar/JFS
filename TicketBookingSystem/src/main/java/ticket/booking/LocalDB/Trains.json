@@ -1,0 +1,22 @@
+[
+  {
+    "trainId": "bacs",
+    "trainNo": "12345",
+    "seats": [
+      [1, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0]
+    ],
+    "stationTime": {
+      "Bangalore": "13:50:00",
+      "Jaipur": "17:10:00",
+      "Delhi": "21:30:00"
+    },
+    "stations": [
+      "Bangalore",
+      "Jaipur",
+      "Delhi"
+    ]
+  }
+]
