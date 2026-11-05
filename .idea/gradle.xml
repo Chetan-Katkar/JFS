@@ -7,6 +7,9 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring_Boot_Project1" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/TicketBookingSystem" />
         <option name="modules">
           <set>
