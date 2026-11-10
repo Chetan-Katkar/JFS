@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="AuthService.app.test" />
+        <module name="AuthService.app.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring_Boot_Project1" target="21" />
+      <module name="Spring_Boot_Project1.main" target="21" />
+      <module name="Spring_Boot_Project1.test" target="21" />
+      <module name="springAOP" target="21" />
+      <module name="springAOP.main" target="21" />
+      <module name="springAOP.test" target="21" />
+      <module name="TicketBookingSystem" target="21" />
+      <module name="TicketBookingSystem.main" target="21" />
+      <module name="TicketBookingSystem.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthService.app" options="-parameters" />
+      <module name="AuthService.app.main" options="-parameters" />
+      <module name="AuthService.app.test" options="-parameters" />
       <module name="Spring_Boot_Project1" options="-parameters" />
       <module name="Spring_Boot_Project1.main" options="-parameters" />
       <module name="Spring_Boot_Project1.test" options="-parameters" />
+      <module name="springAOP" options="-parameters" />
+      <module name="springAOP.main" options="-parameters" />
+      <module name="springAOP.test" options="-parameters" />
     </option>
   </component>
 </project>

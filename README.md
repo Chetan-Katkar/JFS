@@ -14,6 +14,7 @@ My current focus is the Java backend part of full-stack development. These proje
 | `Spring_Boot_Project1/` | Spring Boot MVC and bean configuration | Java 21 / Spring Boot 4.1.2 project. `GET /user-config` returns the configured `UserConfig` through a controller and service. XML bean definitions are loaded with `@ImportResource`; the service receives its config bean through constructor injection. |
 | `spring_boot_proxies/` | Java dynamic proxies | Starter code explores an interface and `InvocationHandler`. Creating proxy instances and delegating calls to the target object remain in progress. |
 | `springAOP/` | Spring AOP and REST | Java 21 / Spring Boot 4.1.2 project with AOP and Web MVC dependencies. The `/` endpoint calls `UserService.logIn()`; a Spring-managed `@Aspect` applies `@Before` and `@After` advice to that method. The source compiles with `./gradlew compileJava`; runtime behavior has not yet been verified. |
+| `AuthService/` | Spring Boot authentication service starter | Java 21 / Spring Boot 3.2.2 app subproject. `app/build.gradle` matches the supplied dependency file; `gradle/libs.versions.toml` defines its Guava and JUnit aliases. The app source compiles and Gradle resolved its compile, runtime, annotation processor, and test dependency configurations. Authentication, JWT behavior, persistence, and API features remain to be implemented. |
 
 ## Skills Practiced
 
@@ -60,6 +61,16 @@ JFS/
 ├── Spring_Boot_Project1/
 ├── spring_boot_proxies/
 ├── springAOP/
+├── AuthService/
+│   ├── app/
+│   │   ├── build.gradle
+│   │   └── src/main/java/authservice/App.java
+│   ├── gradle/
+│   │   ├── libs.versions.toml
+│   │   └── wrapper/
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── settings.gradle
 └── README.md
 ```
 
@@ -70,6 +81,7 @@ Each Gradle project has its own build files and wrapper. Run Gradle commands fro
 - Finish and exercise the Spring AOP advice against a Spring-managed service.
 - Complete the dynamic proxy example and compare it with Spring AOP proxies.
 - Implement concurrent client handling in `MultiThreadedWebServer/`.
+- Build out `AuthService/` with authentication, JWT, MySQL persistence, and REST endpoints.
 - Continue from local JSON persistence toward a database-backed service and a frontend client.
 
 ## Maintenance

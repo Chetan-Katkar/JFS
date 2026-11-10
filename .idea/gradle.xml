@@ -7,21 +7,13 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring_Boot_Project1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/AuthService" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Spring_Boot_Project1" />
+            <option value="$PROJECT_DIR$/AuthService" />
+            <option value="$PROJECT_DIR$/AuthService/app" />
           </set>
         </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TicketBookingSystem" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/TicketBookingSystem" />
-          </set>
-        </option>
-        <option name="myGradleHome" value="" />
       </GradleProjectSettings>
     </option>
   </component>
